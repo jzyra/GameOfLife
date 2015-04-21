@@ -9,9 +9,6 @@
 #include "Window.hpp"
 #include "Config.hpp"
 #include "GameOfLife.hpp"
-//g++ ./*.cpp `sdl-config --cflags --libs` -ljson
-//$ sudo apt-get install libjson0 libjson0-dev
-//libjsoncpp-dev
 using namespace std;
 
 /*!

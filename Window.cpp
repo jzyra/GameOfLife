@@ -62,8 +62,8 @@ void Window::event() {
 						break;
 				}
 				break;
-    	case SDL_QUIT:
-      	exit(0);
+			case SDL_QUIT:
+				exit(0);
 				break;
 			default:
 				break;
