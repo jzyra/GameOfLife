@@ -26,15 +26,19 @@ void Window::draw() {
 	int sizeX = _width / _nbX;
 	int sizeY = _height / _nbY;
 	bool **matrice = _gameOfLife->getMatrice();
+	//Foreach cellulars.
 	for (int i=0; i < _nbY; ++i) {
 		for (int j=0; j < _nbX; ++j) {
+			//If cellular is dead.
 			if(matrice[i][j]) {
+				//Loop for draw square.
 				for(int x = j * sizeX; x < (j * sizeX)+sizeX; x++) {
 					for(int y = i * sizeY; y < (i * sizeY)+sizeY; y++) {
 						pixels[y*_width+x] = SDL_MapRGB(_surface->format, 0, 0, 0);
 					}
 				}
 			} else {
+				//Loop for draw square.
 				for(int x = j * sizeX; x < (j * sizeX)+sizeX; x++) {
 					for(int y = i * sizeY; y < (i * sizeY)+sizeY; y++) {
 						pixels[y*_width+x] = SDL_MapRGB(_surface->format, 255, 255, 255);
