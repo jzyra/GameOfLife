@@ -1,0 +1,22 @@
+{
+	"width": 150,
+	"height": 150,
+	"number_cellulars_x": 5,
+	"number_cellulars_y": 5,
+	"title": "Blinker",
+
+	"cellulars": [
+		{
+			"x": 1,
+			"y": 2
+		},
+		{
+			"x": 2,
+			"y": 2
+		},
+		{
+			"x": 3,
+			"y": 2
+		}
+	]
+}
