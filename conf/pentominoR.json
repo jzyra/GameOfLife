@@ -1,0 +1,30 @@
+{
+	"width": 600,
+	"height": 600,
+	"number_cellulars_x": 200,
+	"number_cellulars_y": 200,
+	"title": "Pentomino R",
+
+	"cellulars": [
+		{
+			"x": 99,
+			"y": 98
+		},
+		{
+			"x": 99,
+			"y": 99
+		},
+		{
+			"x": 100,
+			"y": 99
+		},
+		{
+			"x": 99,
+			"y": 100
+		},
+		{
+			"x": 98,
+			"y": 100
+		}
+	]
+}
