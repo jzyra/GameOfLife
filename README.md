@@ -1,5 +1,5 @@
 # GameOfLife
-Cellular automaton - game of life (John Horton Conway) implementation with configuration file in JSON file.
+Cellular automaton - game of life (John Horton Conway) implementation with configuration file in JSON format.
 
 ![Demo](https://raw.githubusercontent.com/jzyra/GameOfLife/master/demo.gif)
 
